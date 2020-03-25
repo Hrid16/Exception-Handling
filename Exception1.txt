@@ -1,0 +1,16 @@
+package Final.Lab2;
+
+public class Exception1 {
+	
+		  public static void main(String[ ] args) {
+		    try {
+		      int[] myNumbers = {5,6,7};
+		      
+		      System.out.println(myNumbers[13]);
+		      
+		    } catch (Exception e) {
+		    	
+		      System.out.println("Something went wrong");
+		    }
+		  }
+		}
